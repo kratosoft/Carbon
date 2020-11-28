@@ -6,7 +6,7 @@
     colors="true"
 >
     <filter>
-        <whitelist>
+        <whitelist processUncoveredFilesFromWhitelist="true">
             <directory>src/Carbon</directory>
         </whitelist>
     </filter>
